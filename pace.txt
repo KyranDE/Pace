@@ -1,0 +1,11 @@
+My first real node application
+'Baby steps'
+
+Plan
+
+To do list
+    rename the whole thing to a product name (stride, tempo, pace, zones) - i like pace.
+    create app.js file
+    log a message to the console that says "sports tracker started"
+    make the basher run it (run it in the terminal)
+    commit it - in the terminal git init
