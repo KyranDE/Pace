@@ -4,8 +4,37 @@ My first real node application
 Plan
 
 To do list
-    rename the whole thing to a product name (stride, tempo, pace, zones) - i like pace.
-    create app.js file
-    log a message to the console that says "sports tracker started"
-    make the basher run it (run it in the terminal)
-    commit it - in the terminal git init
+    Create a read me file - this needs to contains
+        # whats is this application?
+        ## Its purpose - this is not a comercial product so metion its for helping me learn
+        ### current features
+        #### road map, or what is planned
+        ##### techologies involved in it
+
+    Make user preferences, store then in an object maybe?
+        This will be miles or kilometers, time display, favourites for activities, user name, age, height, weight etc. All this will need to be sored in the DB some how or for now in a json
+
+    The add activity function.
+        Probably want three parameters, type, distance, time.
+        Time should be converted to secconds, or the UI for time converted to secconds before being input to the data base
+        Check if it best to use an array for Run, Walk, Cycle, Hike, or if its best now to have these as UI
+        Check to see if its best to have time converted in the function or at the UI stage, prosb in function as then i can display it formatted hh:mm:ss in the log message
+
+Questions:
+    How do i run a test environment, or how do i build one so that the version i use for dev can be tested the put "live" after testing?
+
+Steps for now
+    Phase 1:
+        Create user object to store name, DOB / age, weight, the add a sub bject for preferences such as km or miles, etc
+        activity adding function, and a possiby an activites object. Not sure on this yet
+        Pref based caluclations
+
+    Phase 2:
+        json storage
+        file storage to persist information
+
+    Phase 3
+        Configuring an REST API
+
+    Phase 4    
+        Data base integration
