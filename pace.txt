@@ -1,24 +1,13 @@
 My first real node application
 'Baby steps'
 
-Plan
-
 To do list
-    Create a read me file - this needs to contains
-        # whats is this application?
-        ## Its purpose - this is not a comercial product so metion its for helping me learn
-        ### current features
-        #### road map, or what is planned
-        ##### techologies involved in it
-
-    Make user preferences, store then in an object maybe?
-        This will be miles or kilometers, time display, favourites for activities, user name, age, height, weight etc. All this will need to be sored in the DB some how or for now in a json
-
-    The add activity function.
-        Probably want three parameters, type, distance, time.
-        Time should be converted to secconds, or the UI for time converted to secconds before being input to the data base
-        Check if it best to use an array for Run, Walk, Cycle, Hike, or if its best now to have these as UI
-        Check to see if its best to have time converted in the function or at the UI stage, prosb in function as then i can display it formatted hh:mm:ss in the log message
+    Test edge cases in the get average function
+        no activities in the filter. ie runs over 100km
+        asking from invalid activity. ie swimming
+    Add functions to get total distance ran / cycles from the array - can filter year month week all time
+    Add function to get average distance ran / cycled
+    Add function to get average time running / cycling
 
 Questions:
     How do i run a test environment, or how do i build one so that the version i use for dev can be tested the put "live" after testing?
@@ -38,3 +27,12 @@ Steps for now
 
     Phase 4    
         Data base integration
+======================================================================
+Updates
+16 Aug 26
+    Added get average pace or speed function
+    Added caseing to add activity function
+
+17 Aug 26
+    Refactoring the average pace function
+    Refine average activity calculations
